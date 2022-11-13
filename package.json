@@ -1,0 +1,44 @@
+{
+  "name": "chakra-inner-drawer",
+  "version": "0.1.0",
+  "description": "Open your Chakra's Drawer inside a specified container.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "pnpm -s dlx only-allow pnpm"
+  },
+  "keywords": [
+    "chakra-ui",
+    "innerdrawer",
+    "drawer",
+    "react",
+    "ui",
+    "frontend"
+  ],
+  "author": "Łukasz Rabiec <lukaszrabiec@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/lucasrabiec/chakra-inner-drawer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasrabiec/chakra-inner-drawer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasrabiec/chakra-inner-drawer/issues"
+  },
+  "dependencies": {
+    "use-debounce": "^8.0.4"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": "^2.0.0",
+    "@emotion/react": "^11.10.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^2.3.7",
+    "@emotion/react": "^11.10.5",
+    "@types/react": "^18.0.25",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.4"
+  }
+}
